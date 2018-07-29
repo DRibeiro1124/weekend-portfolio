@@ -3,7 +3,7 @@ html {
 }
 
 .dino {
-  border: 2px solid yellow;
+  border: 1px solid yellow;
 }
 
 body {
@@ -16,17 +16,18 @@ body {
   background-size: cover;
 }
 
-.element-one {  
+.element-one {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
+
 
 .avatar {
   height: 13em;
   width: 11em;
   border-radius: 0.5em;
   margin: 12em;
-  margin-left: 4em;
 }
 
 .text-bubble img {
@@ -48,7 +49,9 @@ margin-left: 0em;
 .element-two {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   padding: 1.5em;
+  margin: 1em;
 }
 
 .one-list {
@@ -82,31 +85,44 @@ margin-left: 0em;
 .element-three {
  display: flex;
  flex-direction: column;
- color: blue;
+ color: black;
  background-color: white;
+ margin: 1em;
 }
 
 .element-three img {
-  height: 5em;
-  width: fit-content;
+  height: 7em;
+  width: 100%;
 }
 
 .element-four {
   display: flex;
   flex-direction: column;
-  color: blue;
+  color: black;
   background-color: white;
- }
+  margin: 1em;
+}
  
  .element-four img {
    height: 5em;
-   width: fit-content;
+   width: 100%;
  }
 
  .element-five {
-
+   display: flex;
+   background-color: black;
+   color: white;
+   padding-top: 3em;
  }
 
- .element-footer {
-   
+ .element-five img {
+   height: 4em;
+   width: 4em;
+ }
+ 
+ .footer {
+   display: flex;
+   justify-content: center;
+   background-color: black;
+   color: white;
  }
