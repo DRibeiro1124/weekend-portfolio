@@ -2,21 +2,100 @@ html {
   height: 100%;
 }
 
-body {
-  margin: 0;
-  min-height: 100%;
-  font: 16px / 1 sans-serif;
-
-  background-image: url("/images/space.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.hilite {
+  border: 2px solid blue;
 }
 
-.opening-statement {
-  color: whitesmoke;
-  border: 3px solid blue;
+body {
+  margin: 0;
+  height: 100%;
+  /* font: 16px / 1 sans-serif; (Original Font) */
+  font-family: 'Roboto', sans-serif;
+  background-image: url(./images/space.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  height: 30em;
-  width: 10em;
+.main-header {  
+  display: flex;
+  justify-content: flex-start;
+  padding: 2em;
+}
+
+#avatar {
+  /* border: 2px solid white; */
+  border-radius: 0.5em;
+  height: 200px;
+  width: 200px;
+  margin: 7em; 
+}
+
+.bubble-container {
+}
+
+.text-bubble {
+  /* border: 2px solid green; */
+  color: black;
+  margin: 6em;
+  border-radius: .5em;
+  height: 6em;
+  background-color: white;
+}
+
+.text-bubble img {
+/* border: 3px dotted yellow; */
+display: flex;
+padding: 37px;
+margin-left: 1px;
+}
+
+#middle-upper-section {
+  /* border: 2px solid yellow; */
+  display: flex;
+  margin: 50px;
+}
+
+.one-list {
+  border-radius: .5em;
+  height: 150px;
+  width: 200px;
+  margin: 20px;
+}
+
+.rain {
+  border-radius: .5em;
+  height: 150px;
+  width: 200px;
+  margin: 20px;
+}
+
+.bomb {
+  border-radius: .5em;
+  height: 150px;
+  width: 200px;
+  margin: 20px;
+}
+
+.sensei {
+  border-radius: .5em;
+  height: 150px;
+  width: 200px;
+  margin: 20px;
+}
+
+.middle-mid-section {
+
+}
+
+#middle-lower-section {
+  /* border: 2px solid white; */
+  color: aliceblue;
+}
+
+#bottom-section {
+  /* border: 2px solid white; */
+}
+
+#footer {
+  /* border: 2px solid purple; */
 }
