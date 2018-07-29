@@ -19,18 +19,23 @@ body {
 .main-header {  
   display: flex;
   justify-content: center;
-  padding: 2em;
 }
 
-.bubble-container {
-
+.avatar {
+  height: 13em;
+  width: 11em;
+  border-radius: 0.5em;
+  margin: 12em;
+  margin-left: 4em;
 }
+
 
 .text-bubble {
   color: black;
-  margin: 6em;
+  margin: 11em;
   border-radius: .5em;
-  height: 6em;
+  height: 7.25em;
+  padding-right: 15em;
   background-color: white;
 }
 
@@ -41,42 +46,41 @@ padding: 1em;
 margin-left: 0em;
 }
 
-.middle-upper-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10em;
-}
 
 .one-list {
   border-radius: .5em;
   height: 10em;
-  width: 12em;
+  width: 15em;
   margin: 0.5em;
 }
 
 .rain {
   border-radius: .5em;
   height: 10em;
-  width: 12em;
+  width: 15em;
   margin: 0.5em;
 }
 
 .bomb {
   border-radius: .5em;
   height: 10em;
-  width: 12em;
+  width: 15em;
   margin: 0.5em;
 }
 
 .sensei {
   border-radius: 0.5em;
   height: 10em;
-  width: 12em;
+  width: 15em;
   margin: 0.5em;
 }
 
-.middle-mid-section {
+.middle-upper-section {
+  margin: 10em;
+}
+
+.middle-mid-section img {
+  margin: 2em;
 
 }
 
