@@ -16,7 +16,7 @@ body {
   background-size: cover;
 }
 
-.main-header {  
+.element-one {  
   display: flex;
   justify-content: center;
 }
@@ -29,16 +29,6 @@ body {
   margin-left: 4em;
 }
 
-
-.text-bubble {
-  color: black;
-  margin: 11em;
-  border-radius: .5em;
-  height: 7.25em;
-  padding-right: 15em;
-  background-color: white;
-}
-
 .text-bubble img {
 display: flex;
 justify-content: flex-start;
@@ -46,52 +36,77 @@ padding: 1em;
 margin-left: 0em;
 }
 
+.text-bubble {
+  color: black;
+  margin: 11em;
+  border-radius: .5em;
+  height: 7em;
+  padding-right: 15em;
+  background-color: white;
+}
+
+.element-two {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+}
 
 .one-list {
   border-radius: .5em;
-  height: 10em;
-  width: 15em;
+  height: 8em;
+  width: 11em;
   margin: 0.5em;
 }
 
 .rain {
   border-radius: .5em;
-  height: 10em;
-  width: 15em;
+  height: 8em;
+  width: 11em;
   margin: 0.5em;
 }
 
 .bomb {
   border-radius: .5em;
-  height: 10em;
-  width: 15em;
+  height: 8em;
+  width: 11em;
   margin: 0.5em;
 }
 
 .sensei {
-  border-radius: 0.5em;
-  height: 10em;
-  width: 15em;
+  border-radius: .5em;
+  height: 8em;
+  width: 11em;
   margin: 0.5em;
 }
 
-.middle-upper-section {
-  margin: 10em;
+.element-three {
+ display: flex;
+ flex-direction: column;
+ color: blue;
+ background-color: white;
 }
 
-.middle-mid-section img {
-  margin: 2em;
-
+.element-three img {
+  height: 5em;
+  width: fit-content;
 }
 
-.middle-lower-section {
+.element-four {
+  display: flex;
+  flex-direction: column;
+  color: blue;
+  background-color: white;
+ }
  
-}
+ .element-four img {
+   height: 5em;
+   width: fit-content;
+ }
 
-.bottom-section {
-  
-}
+ .element-five {
 
-.footer {
-  
-}
+ }
+
+ .element-footer {
+   
+ }
