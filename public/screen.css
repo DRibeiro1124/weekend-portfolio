@@ -57,6 +57,12 @@ flex: 1;
   background-color: #fff;
   border-radius: 0.5em;
   margin: 0;
+  padding: 0.5em;
+}
+
+.text-bubble h1 {
+  margin: 0;
+  padding: 0.3em 0;
 }
 
 /* .triangle img {
@@ -85,12 +91,23 @@ flex: 1;
  color: black;
  background-color: white;
  margin: 1em;
+ border-radius: 0.5em;
 }
 
 .element-three img {
+  border-radius: 0.5em 0.5em 0 0;
   height: 7em;
   width: 100%;
 }
+
+.element-three-text p b {
+  font-size: 130%;
+}
+
+.element-three-text {
+  padding: 0 0 1em 1em;
+}
+
 
 .element-four {
   display: flex;
