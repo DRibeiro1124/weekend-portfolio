@@ -1,86 +1,83 @@
-html {
-  height: 100%;
-}
 
 .dino {
-  border: 1px solid yellow;
+  border: 1px solid blue;
 }
 
 body {
-  margin: 0;
-  height: 100%;
-  /* font: 16px / 1 sans-serif; (Original Font) */
+  margin: auto;
+  background-color: #0e0e0e;
   font-family: 'Roboto', sans-serif;
-  background-image: url(./images/space.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  max-width: 1200px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #051018;
+}
+
+/* .container1 */
+.top-element {
+  background-image: url(./images/space.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .hello */
 .element-one {
   display: flex;
-  justify-content: center;
-  align-items: center;
+ padding: 5em;
+ flex-wrap: wrap;
 }
 
+/* .hello-img */
+.avatar-img {
+padding: 2em 2em 1em 0;
+flex: 1;
+}
 
-.avatar {
-  height: 13em;
-  width: 11em;
+/* hello-block */
+.bubble-box {
+  flex: 4;
+}
+
+/* .hello-img img */
+.avatar-img img {
   border-radius: 0.5em;
-  margin: 12em;
+  width: 10em;
+  height: 10em;
+  flex: 0;
 }
 
-.text-bubble img {
-display: flex;
-justify-content: flex-start;
-padding: 1em;
-margin-left: 0em;
-}
-
+/* hello-blockquote */
 .text-bubble {
-  color: black;
-  margin: 11em;
-  border-radius: .5em;
-  height: 7em;
-  padding-right: 15em;
-  background-color: white;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0.7;
+  background-color: #fff;
+  border-radius: 0.5em;
+  margin: 0;
 }
+
+/* .triangle img {
+  position: relative;
+  left: 1.5em;
+  opacity: 0.7;
+} */
 
 .element-two {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: hsla(0, 0%, 0%, 0.6);
   padding: 1.5em;
-  margin: 1em;
+
 }
 
-.one-list {
-  border-radius: .5em;
-  height: 8em;
-  width: 11em;
-  margin: 0.5em;
-}
-
-.rain {
-  border-radius: .5em;
-  height: 8em;
-  width: 11em;
-  margin: 0.5em;
-}
-
-.bomb {
-  border-radius: .5em;
-  height: 8em;
-  width: 11em;
-  margin: 0.5em;
-}
-
-.sensei {
-  border-radius: .5em;
-  height: 8em;
-  width: 11em;
-  margin: 0.5em;
-}
+/* .sites img {
+  padding: 2em;
+  flex: 1;
+} */
 
 .element-three {
  display: flex;
@@ -104,12 +101,12 @@ margin-left: 0em;
 }
  
  .element-four img {
-   height: 5em;
+   height: 7em;
    width: 100%;
  }
 
  .element-five {
-   display: flex;
+   text-align: center;
    background-color: black;
    color: white;
    padding-top: 3em;
