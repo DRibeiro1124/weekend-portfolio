@@ -80,11 +80,6 @@ flex: 1;
 
 }
 
-/* .sites img {
-  padding: 2em;
-  flex: 1;
-} */
-
 .element-three {
  display: flex;
  flex-direction: column;
@@ -132,16 +127,34 @@ flex: 1;
   font-size: 130%;
 }
 
+.element-five-text {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
  .element-five {
-   text-align: center;
-   background-color: black;
-   color: white;
-   padding-top: 3em;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   padding: 4em 0 0 0;
  }
 
- .element-five img {
-   height: 4em;
-   width: 4em;
+ .twitter-logo {
+   display: flex;
+   align-items: flex-start;
+   flex-wrap: nowrap;
+   /* flex-wrap: wrap; */
+   /* padding: 3em; */
+   height: 10em;
+   width: 60%;
+ }
+
+ .twitter-logo img {
+   /* border: 1px solid red; */
+   width: 20%;
+   height: 100%;
  }
  
  .footer {
