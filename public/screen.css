@@ -115,12 +115,22 @@ flex: 1;
   color: black;
   background-color: white;
   margin: 1em;
+  border-radius: 0.5em;
 }
  
  .element-four img {
-   height: 7em;
-   width: 100%;
+  border-radius: 0.5em 0.5em 0 0;
+  height: 7em;
+  width: 100%;
  }
+
+ .element-four-text {
+  padding: 1em;
+}
+
+.element-four-text p b {
+  font-size: 130%;
+}
 
  .element-five {
    text-align: center;
